@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Moodle Notifier",
+  "description": "This extension notifies the user with Moodle updates.",
+  "version": "1.0",
+  "options_page": "options.html",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Moodle Notifier",
+    "default_popup": "index.html"
+  },
+  
+  "permissions": [
+    "http://intranet.iitg.ernet.in/*",
+    "https://intranet.iitg.ernet.in/*",
+    "https://intranet.iitg.ernet.in/moodle/course/*",
+	"https://intranet.iitg.ernet.in/moodle/login/*"
+  ]
+}
+
