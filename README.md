@@ -1,7 +1,7 @@
 IITG Moodle Notifier
 ====================
 
-Notifies the user of any to their Moodle webpages of the courses to which they 
+Notifies the user of any changes to their Moodle webpages of the courses to which they 
 have subscribed to.
 
 What is Moodle?
